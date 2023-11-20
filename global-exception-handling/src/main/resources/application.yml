@@ -1,0 +1,11 @@
+server:
+  port: 7034
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/user_db
+    username: postgres
+    password: ravi@1993
+    
